@@ -25,7 +25,7 @@ function App() {
         )}
 
         <p className="switch-text">
-          {isLogin ? "Don't have an account?" : 'Already have an account?'}{' '}
+          {isLogin ? "Don't have an account??" : 'Already have an account?'}{' '}
           <span onClick={() => setIsLogin(!isLogin)}>
             {isLogin ? 'Register' : 'Login'}
           </span>
